@@ -1,0 +1,53 @@
+main {
+    padding: 50px;
+}
+main h1 {
+    font-family: Merienda, cursive;
+    text-align: center;
+    color: rgb(235, 224, 221);
+    font-size: 2.5rem;
+}
+main div.content {
+    width: 700px;
+    margin: 0 auto;
+}
+main div.content p.about {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.4rem;
+    color: rgb(235, 224, 221);
+    text-align: center;
+}
+main div.content div.langs {
+    display: flex;
+    justify-content: space-around;
+}
+main div.langs div.lang {
+    flex: 0 1 200px;
+    text-align: center;
+    height: 400px;
+    background-color: #11111155;
+    border-radius: 5px;
+}
+main div.langs div.lang i {
+    margin: 10px 0; 
+    color: #CC684F;
+    font-size: 5rem;
+}
+main div.langs div.lang p {
+    color: rgb(235, 224, 221);
+    font-family: Montserrat, sans-serif;
+    margin: 5px 0;
+}
+main div.langs div.lang p.lang {
+    font-size: 1.2rem;
+}
+main div.langs div.lang p.description {
+    font-size: 1rem;
+    margin: 15px 0;
+}
+main div.langs div.lang p.exp {
+    font-size: 1.2rem;
+}
+main div.langs div.lang p.exp-lvl {
+    font-size: 1rem;
+}

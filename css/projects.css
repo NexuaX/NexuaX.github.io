@@ -1,0 +1,61 @@
+main {
+    padding: 50px;
+}
+main h1 {
+    font-family: Merienda, cursive;
+    text-align: center;
+    color: rgb(235, 224, 221);
+    font-size: 2.5rem;
+}
+main div.content {
+    display: flex;
+    width: 700px;
+    max-height: 600px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+main div.content::-webkit-scrollbar {
+    display: none;
+}
+main div.content div.project {
+    flex: 0 1 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #11111155;
+    border-radius: 5px;
+    position: relative;
+}
+main div.content div.project img{
+    width: 100%;
+    border-radius: 5px;
+}
+main div.content div.project div.cover{
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+    background-color: #111111DD;
+    position: absolute;
+    color: rgb(235, 224, 221);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 2rem;
+    opacity: 0;
+}
+main div.content div.project div.cover:hover {
+    opacity: 1;
+}
+main div.content div.project:nth-of-type(1) {
+    flex: 0 1 300px;
+    height: 300px;
+    margin: 10px 20px;
+}
+main div.content div.project:nth-of-type(2) {
+    flex: 0 1 300px;
+    height: 300px;
+    margin: 10px 20px;
+}

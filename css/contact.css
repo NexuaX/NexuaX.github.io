@@ -1,0 +1,27 @@
+main {
+    padding: 50px;
+}
+main h1 {
+    font-family: Merienda, cursive;
+    text-align: center;
+    color: rgb(235, 224, 221);
+    font-size: 2.5rem;
+}
+main div.content {
+    width: 700px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+main div.content p {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(235, 224, 221);
+}
+main div.content p.intro {
+    font-size: 1.4rem;
+}
+main div.content i {
+    font-size: 4rem;
+    margin: 0 10px;
+    color: rgb(235, 224, 221);
+}

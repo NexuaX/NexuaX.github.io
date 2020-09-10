@@ -1,0 +1,31 @@
+main {
+    padding: 50px;
+}
+main h1 {
+    font-family: Merienda, cursive;
+    text-align: center;
+    color: rgb(235, 224, 221);
+    font-size: 2.5rem;
+    position: relative;
+}
+main i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+main div.content {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+main div.content iframe {
+    width: 100%;
+    --iframeWidth: calc(100vw - 100px);
+    height: calc(var(--iframeWidth) * 0.5625);
+    border: none;
+}
+main div.content iframe::-webkit-scrollbar {
+    display: none;
+}
