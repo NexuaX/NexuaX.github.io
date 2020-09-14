@@ -24,6 +24,7 @@ header {
 }
 header div.logo-title {
     font-family: Merienda, cursive;
+    cursor: pointer;
 }
 header div.logo-title h1 {
     margin-bottom: 0;
@@ -58,6 +59,11 @@ header nav div.menu-item.is-active {
 }
 main {
     flex: 1 1 auto;
+    overflow: hidden;
+    transition: opacity .2s;
+}
+main.toggle-opacity {
+    opacity: 0;
 }
 footer {
     position: fixed;
